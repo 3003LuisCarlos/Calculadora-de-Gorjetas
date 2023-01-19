@@ -1,0 +1,88 @@
+
+body{
+    margin: 0;
+    background-color:  rgba(219, 100, 2, 0.842);;
+    font-size: 15px;
+    font-family: lato, sans-serif;
+    background-image: url(image/imagem.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nome{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:  rgb(107, 107, 214);
+ height: 80px;
+ font-size: 30px;
+ color: white;
+}
+
+#container{
+    height: 500px;
+    width: 360px;
+    margin: 40px auto;
+    background-color: rgba(219, 100, 2, 0.842);
+    box-shadow: 8px  8px 25px  rgb(185, 17, 17);
+    border-radius: 20px;
+
+}
+
+.title{
+    background-color: rgb(107, 107, 214);
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.formInput{
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    padding: 2px 2px 2px 1px;
+    border-color: rgb(185, 59, 59);
+}
+
+.formSelect{
+        width: 200px;
+        padding: 5px;
+        font-size: 12px;
+}
+
+.btn{
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(107, 107, 214);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    font-size: 17px;
+    color: white;
+}
+
+#total{
+    
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    font-size: 20px;
+    color: white;
+}
